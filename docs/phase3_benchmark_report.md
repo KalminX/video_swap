@@ -8,9 +8,9 @@
 
 | Pair (Source -> Target)   |   Delaunay Triangles | Warp Latency   | Blend Latency   | Total Latency   | Status   |
 |---------------------------|----------------------|----------------|-----------------|-----------------|----------|
-| lena.jpg -> david1.jpg    |                  229 | 28.1 ms        | 2.3 ms          | 275.5 ms        | SUCCESS  |
-| david1.jpg -> lena.jpg    |                  243 | 36.4 ms        | 19.6 ms         | 124.9 ms        | SUCCESS  |
-| david1.jpg -> david2.jpg  |                  244 | 29.0 ms        | 4.0 ms          | 82.3 ms         | SUCCESS  |
+| lena.jpg -> david1.jpg    |                  229 | 28.4 ms        | 1.9 ms          | 257.5 ms        | SUCCESS  |
+| david1.jpg -> lena.jpg    |                  243 | 31.6 ms        | 16.6 ms         | 114.2 ms        | SUCCESS  |
+| david1.jpg -> david2.jpg  |                  244 | 28.0 ms        | 5.2 ms          | 82.2 ms         | SUCCESS  |
 
 ### Completion Criteria Verification
 - [x] Successfully processed multiple test image face swaps.
